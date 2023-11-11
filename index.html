@@ -49,12 +49,12 @@
     color:white;
     font-family:cursive;
 }
- @media screen and (max-width:780px) {
+ /* @media screen and (max-width:780px) {
     .box{
         height:10%;
         width:50%;
     }
- }
+ } */
         </style>
     </head>
     <body onload="wishes()">
@@ -69,7 +69,7 @@
 function wishes() {
     if (name != null) {
         document.getElementById("wishes").innerHTML =
-        "HAPPY DIWALI " + name + " TO YOU AND YOUR FAMILY " ;
+        "Happy Diwali " + name + " To You And Your Family " ;
     }
     if (name == null){
         document.getElementById("wishes").innerHTML =
